@@ -29,9 +29,6 @@ using namespace metal;
 }
 
 /*
- 
- 
- 
  h = ||P−C||             l = (z·u^−r) · u^h             a =    l/h
 
  

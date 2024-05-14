@@ -289,7 +289,7 @@ struct ContentView: View {
         let item = DroppedItem(
             location: location,
             image: image,
-            spiral: Spiral(b: 0.2, center: center, target: location)
+            spiral: Spiral(b: 0.1, center: center, target: location)
         )
         droppedItem = item
         

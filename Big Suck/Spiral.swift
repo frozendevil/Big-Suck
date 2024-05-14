@@ -109,7 +109,7 @@ struct SpiralView: View {
             )
             
             if let touch {
-                let spiral = Spiral(a: 1, b: 0.2, center: center, target: touch)
+                let spiral = Spiral(a: 1, b: 0.1, center: center, target: touch)
                 
                 for i in stride(from: 0, to: 1.0, by: 0.001) {
                     let (point, _) = spiral.value(at: i)
