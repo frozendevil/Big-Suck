@@ -47,7 +47,7 @@ using namespace metal;
     float cos = metal::cos(a);
     float sin = metal::sin(a);
 
-    float2x2 matrix = float2x2(cos, -sin, sin, cos);
+    float2x2 matrix = float2x2(cos, sin, -sin, cos);
     p = p * matrix;
     p = p + center;
     
